@@ -1,2 +1,2 @@
-# THICC-Script
-Utility script for manyland.com with helpful functions
+# mlscript
+Utility script for m-------.com with helpful functions
