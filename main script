@@ -1,4 +1,4 @@
-// T H I C C script
+//mlscript
  
 function stalk(){
 var areaNumber = prompt("Enter a player's area number (check the array) to follow them");
