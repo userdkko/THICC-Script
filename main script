@@ -63,3 +63,58 @@ suicide() - kill yourself
 dox() - tells you info about a player through their area number (id, name, is full account, is editor, x and y pos)
 grav() - change gravity to a specified number (superjump!)
 */
+
+
+
+function walkLeft(){
+ig.game.virtualJoystick.input.left=true
+setTimeout(function(){ig.game.virtualJoystick.input.left=false;}, 500);
+};
+function walkRight(){
+ig.game.virtualJoystick.input.right=true
+setTimeout(function(){ig.game.virtualJoystick.input.right=false;}, 500);
+};
+function jump(){
+ig.game.virtualJoystick.input.up=true
+setTimeout(function(){ig.game.virtualJoystick.input.up=false;}, 500);
+};
+function walkDown(){
+ig.game.virtualJoystick.input.down=true
+setTimeout(function(){ig.game.virtualJoystick.input.down=false;}, 500);
+};
+function action(){
+ig.game.virtualJoystick.input.action=true
+setTimeout(function(){ig.game.virtualJoystick.input.action=false;}, 500);
+};
+
+
+js console
+network
+stop recording
+clear log
+check box "offline"
+ig.game.O604.rank=5 (changes every version.) philipp rank
+ig.game.iseditorhere=true; (editor rank)
+ig.game.version=####;
+ig.game.isFullAccount=true
+
+ig.game.gravity=### (def = 600)
+ig.game.version="";
+ig.game.O604.O3643.player.isLying/isSitting/jumping/isNew/etc
+ig.game.O604.O3643.player.pos.x/y
+ig.game.O604.O3643.player.rank
+ig.game.O604.O3643.player.screenName="";
+ig.game.O604.O3643.player.voice (look in fonts) "actionFont"
+.player.friction(x, y)
+
+ig.game.O604.pos.x TELEPORT SIDEWAYS
+ig.game.O604.vel.x PUSH SIDEWAYS
+ig.game.O604.offset FAKE TELEPORT
+ig.game.O604.isDead GODMODE + GHOST
+
+O604
+O1149
+O4980
+
+//update code every update.
+//obfuscation from server updates codes from random set of numbers. set from 0001 to 9999 for ranking. in game server commands hold a 0 at the start.
