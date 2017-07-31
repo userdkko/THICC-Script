@@ -118,3 +118,12 @@ O4980
 
 //update code every update.
 //obfuscation from server updates codes from random set of numbers. set from 0001 to 9999 for ranking. in game server commands hold a 0 at the start.
+
+// freak out up/down
+setInterval(function(){ig.game.O4187.vel.y=-100000;}, .1); setInterval(function(){ig.game.O4187.vel.y=100000;}, .2);
+// freak out left/right
+setInterval(function(){ig.game.O4187.vel.x=-100000;}, .1); setInterval(function(){ig.game.O4187.vel.x=100000;}, .2);
+// freak out rave
+setInterval(function(){ig.game.O4187.vel.y=-100000;}, .1); setInterval(function(){ig.game.O4187.vel.y=100000;}, .2); setInterval(function(){ig.game.O4187.vel.x=-100000;}, .1); setInterval(function(){ig.game.O4187.vel.x=100000;}, .2);
+
+//collecting scripts at this point. some scripts are outdated.
